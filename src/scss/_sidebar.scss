@@ -1,0 +1,40 @@
+h2 {
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        margin: 2rem 0;
+    }
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .overview-col {
+        width: 100%;
+        background-color: $secondary-colour;
+        color: #fff;
+        padding: 1rem;
+        border: 1px solid;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+
+        h4 {
+            margin-bottom: .5rem;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            width: 50%;
+        }
+
+    }
+}

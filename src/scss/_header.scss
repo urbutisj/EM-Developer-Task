@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #f8f8f8;
+    box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.35);
+
+    .container {
+        height: 100%;
+
+        .row {
+            display: flex;
+            align-items: center;
+            height: inherit;
+
+            img {
+                padding: 10px 0;
+                max-height: 60px;
+            }
+        }
+
+
+    }
+}
